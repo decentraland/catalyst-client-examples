@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/well-known-components/base-component#readme",
   "devDependencies": {
-    "@microsoft/api-extractor": "^7.17.0",
     "@types/jest": "^28.1.0",
     "jest": "^28.1.0",
     "ts-jest": "^28.0.4",
