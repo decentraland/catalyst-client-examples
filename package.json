@@ -33,6 +33,7 @@
   ],
   "dependencies": {
     "@well-known-components/fetch-component": "^2.0.0",
-    "dcl-catalyst-client": "^19.0.0"
+    "dcl-catalyst-client": "https://sdk-team-cdn.decentraland.org/@dcl/catalyst-client/branch/eth-connect/dcl-catalyst-client-19.0.1-5179654922.commit-a251ff1.tgz",
+    "eth-crypto": "^2.6.0"
   }
 }
