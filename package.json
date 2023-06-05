@@ -19,7 +19,10 @@
   },
   "prettier": {
     "printWidth": 120,
-    "semi": false
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "tabWidth": 2
   },
   "homepage": "https://github.com/well-known-components/base-component#readme",
   "devDependencies": {
@@ -32,8 +35,9 @@
     "dist"
   ],
   "dependencies": {
+    "@dcl/catalyst-contracts": "^4.0.2",
     "@well-known-components/fetch-component": "^2.0.0",
-    "dcl-catalyst-client": "https://sdk-team-cdn.decentraland.org/@dcl/catalyst-client/branch/eth-connect/dcl-catalyst-client-19.0.1-5179654922.commit-a251ff1.tgz",
-    "eth-crypto": "^2.6.0"
+    "dcl-catalyst-client": "^20.0.0",
+    "eth-connect": "^6.1.0"
   }
 }
