@@ -1175,9 +1175,9 @@ cross-spawn@^7.0.3:
     which "^2.0.1"
 
 dcl-catalyst-client@^20.0.0:
-  version "20.0.0"
-  resolved "https://registry.yarnpkg.com/dcl-catalyst-client/-/dcl-catalyst-client-20.0.0.tgz#d6930ddd073693754be228c0dd1e46551278f6f8"
-  integrity sha512-9T/WsMExUQ7QkYlYsmykDLtVd5UJko2DqYutd4WJWuXEY6YSc3osursLpXFJKLliv5dmITtJOTidCqE7KoqSiA==
+  version "20.0.1"
+  resolved "https://registry.yarnpkg.com/dcl-catalyst-client/-/dcl-catalyst-client-20.0.1.tgz#e77cd5eb341eef4d5b8e584767c84ee80c0146f5"
+  integrity sha512-Mih2qeSYbGnNxLwl8x7Jz4+owIjcQYyVhc9As7Z8oAhHDPAMP9BCfnUdnw8Es66aa3J/mAVidsCB/6RxWiHyLg==
   dependencies:
     "@dcl/catalyst-contracts" "^4.0.2"
     "@dcl/crypto" "^3.4.0"
