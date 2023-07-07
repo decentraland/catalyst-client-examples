@@ -37,7 +37,7 @@
   "dependencies": {
     "@dcl/catalyst-contracts": "^4.0.2",
     "@well-known-components/fetch-component": "^2.0.0",
-    "dcl-catalyst-client": "^20.0.0",
+    "dcl-catalyst-client": "^21.0.0",
     "eth-connect": "^6.1.0"
   }
 }
