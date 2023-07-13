@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "profile": "node ./dist/deploy-profile.js"
   },
   "repository": {
     "type": "git",
@@ -36,8 +37,9 @@
   ],
   "dependencies": {
     "@dcl/catalyst-contracts": "^4.0.2",
+    "@dcl/crypto": "^3.4.3",
     "@well-known-components/fetch-component": "^2.0.0",
     "dcl-catalyst-client": "^21.1.0",
-    "eth-connect": "^6.1.0"
+    "eth-connect": "^6.2.0"
   }
 }
