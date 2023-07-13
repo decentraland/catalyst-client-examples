@@ -806,9 +806,9 @@
     "@types/yargs-parser" "*"
 
 "@well-known-components/fetch-component@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@well-known-components/fetch-component/-/fetch-component-2.0.0.tgz#5047da44ac19eef22dcaa06f4d8ff615c1001001"
-  integrity sha512-hCoW2CClLnT3uUN5vmXc92q9RmRRQCEVEyN1XtyYfZ27oJI7YmQnFSVkgW+37gtVWoptFF2vheuTASFaNrzkrg==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@well-known-components/fetch-component/-/fetch-component-2.0.2.tgz#02260611f9d05551efe825c4358cbc628a71c4c0"
+  integrity sha512-LdY+6n9kuyACg3fcU4qMrNhLZuG7eqPxLSqzDgQyoHKeNjlzggoUqTVJKtIyi6vjPs8pSQ/Fx1xdLuBhOKCgww==
   dependencies:
     "@well-known-components/interfaces" "^1.4.1"
     cross-fetch "^3.1.5"
