@@ -3,25 +3,30 @@ import { buildProfile, getIdentity } from './helpers/deploy-profile-helper'
 import { ethSign } from '@dcl/crypto/dist/crypto'
 import { Authenticator } from '@dcl/crypto'
 import { hexToBytes } from 'eth-connect'
-import { createContentClient } from 'dcl-catalyst-client'
+import { createCatalystClient, createContentClient } from 'dcl-catalyst-client'
+import { Profile } from "@dcl/schemas"
 
-const CATALYST_URL = 'https://peer-ap1.decentraland.zone/content'
+const CATALYST_URL = 'http://127.0.0.1:6969'
+// 'http://127.0.0.1:6969'
+//'https://peer-ap1.decentraland.zone/content'
 
 export async function main() {
   const fetcher = createFetchComponent()
   const client = createContentClient({ url: CATALYST_URL, fetcher })
-  const { entityId, files } = await buildProfile('0x5447C87068b3d99F50a439f98a2B420585B34A93', {
+  const metadata = {
     timestamp: 1672334076849,
     avatars: [
       {
         hasClaimedName: false,
         name: 'Ocleomansi',
-        description: '',
+        description: 'A description',
         tutorialStep: 256,
         avatar: {
           bodyShape: 'urn:decentraland:off-chain:base-avatars:BaseMale',
           wearables: [
-            'urn:decentraland:off-chain:base-avatars:green_hoodie',
+            // 'urn:decentraland:off-chain:base-avatars:green_hoodie',
+            'urn:decentraland:mumbai:collections-v2:0x02101c138653a0af06a45b729d9c5d6ba27b8f4a:1:105312291668557186697918027683670432318895095400549111254310977537',
+            // 'urn:decentraland:matic:collections-v2:0x26ea2f6a7273a2f28b410406d1c13ff7d4c9a162:6',
             'urn:decentraland:off-chain:base-avatars:pijama_pants',
             'urn:decentraland:off-chain:base-avatars:moccasin',
             'urn:decentraland:off-chain:base-avatars:cornrows',
@@ -72,9 +77,9 @@ export async function main() {
             }
           ],
           snapshots: {
-            body: 'https://peer.decentraland.zone/content/contents/bafkreihzltkoap3t3ues42ppn4y3jm73pexmsqmrlhr42zafcm4nuqr33i',
+            body: 'bafkreihzltkoap3t3ues42ppn4y3jm73pexmsqmrlhr42zafcm4nuqr33i',
             face256:
-              'https://peer.decentraland.zone/content/contents/bafkreie65klgvjmbrpavqzxelw4ak34s6xshtkiczfuae6hokpp6rdze4m'
+              'bafkreie65klgvjmbrpavqzxelw4ak34s6xshtkiczfuae6hokpp6rdze4m'
           },
           eyes: {
             color: {
@@ -107,7 +112,21 @@ export async function main() {
         hasConnectedWeb3: true
       }
     ]
-  })
+  }
+
+  if (!Profile.validate(metadata)) {
+    console.log(metadata)
+    console.error(Profile.validate.errors)
+    return
+  }
+
+  const filesToInclude = new Map<string, Uint8Array>()
+  const bodyContent = await client.downloadContent(metadata.avatars[0].avatar.snapshots.body)
+  const faceContent = await client.downloadContent(metadata.avatars[0].avatar.snapshots.face256)
+  filesToInclude.set('body.png', bodyContent)
+  filesToInclude.set('face256.png', faceContent)
+
+  const { entityId, files } = await buildProfile('0x5447C87068b3d99F50a439f98a2B420585B34A93', metadata, filesToInclude)
 
   const identity = getIdentity()
   const signature = ethSign(hexToBytes(identity.privateKey), entityId)

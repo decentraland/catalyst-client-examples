@@ -5,11 +5,12 @@ import { IdentityType } from '@dcl/crypto'
 import { bytesToHex, getAddress, hexToBytes, sha3 } from 'eth-connect'
 import { getPublicKey } from 'ethereum-cryptography/secp256k1'
 
-export async function buildProfile(address: string, metadata: object): Promise<DeploymentPreparationData> {
+export async function buildProfile(address: string, metadata: object, files: Map<string, Uint8Array>): Promise<DeploymentPreparationData> {
     return await DeploymentBuilder.buildEntity({
         type: EntityType.PROFILE,
         pointers: [address],
-        metadata
+        metadata,
+        files
     })
 }
 
