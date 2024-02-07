@@ -1,7 +1,7 @@
-import { getCatalystServersFromCache } from "dcl-catalyst-client/dist/contracts-snapshots"
+import { getCatalystServersFromCache } from 'dcl-catalyst-client/dist/contracts-snapshots'
 
 export async function main() {
-  console.log("Catalysts: ", getCatalystServersFromCache("mainnet"))
+  console.log('Catalysts: ', getCatalystServersFromCache('mainnet'))
 }
 
 main().catch(console.error)

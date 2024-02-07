@@ -10,7 +10,7 @@ export async function main() {
   const lambdasClient = await client.getLambdasClient()
   const profiles = await lambdasClient.getAvatarsDetailsByPost({ ids: [address] })
 
-  console.log('Profiles: ', profiles)
+  console.log('Profiles: ', JSON.stringify(profiles, null, 2))
 }
 
 main().catch(console.error)
