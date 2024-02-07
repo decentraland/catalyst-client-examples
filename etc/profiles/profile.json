@@ -1,0 +1,93 @@
+ {
+    "avatars": [
+      {
+        "hasClaimedName": true,
+        "description": "",
+        "tutorialStep": 256,
+        "name": "mgoldman",
+        "avatar": {
+          "bodyShape": "urn:decentraland:off-chain:base-avatars:BaseMale",
+          "wearables": [
+            "urn:decentraland:off-chain:base-avatars:eyes_02",
+            "urn:decentraland:off-chain:base-avatars:f_mouth_02",
+            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:1",
+            "urn:decentraland:matic:collections-v2:0x80f54870df28850f9ce681ddcbf4bd7b18b007fb:1",
+            "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle",
+            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:3",
+            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:2"
+          ],
+          "forceRender": [],
+          "emotes": [
+            {
+              "slot": 1,
+              "urn": "urn:decentraland:matic:collections-v2:0xea954afa4d2a8d0624adfafeb0e5a725ef777774:1"
+            },
+            {
+              "slot": 2,
+              "urn": "clap"
+            },
+            {
+              "slot": 3,
+              "urn": "disco"
+            },
+            {
+              "slot": 4,
+              "urn": "raiseHand"
+            },
+            {
+              "slot": 5,
+              "urn": "dance"
+            },
+            {
+              "slot": 6,
+              "urn": "urn:decentraland:matic:collections-v2:0x9087f96750c4e7607454c67c4f0bcf357ae62a46:2"
+            },
+            {
+              "slot": 7,
+              "urn": "money"
+            },
+            {
+              "slot": 9,
+              "urn": "shrug"
+            }
+          ],
+          "snapshots": {
+            "body": "bafkreibcd4qcbtizhykjnnimypg7pzbgeeyovdcf7hbgejzwhlatgknuji",
+            "face256": "bafkreicewdls4xaaudfazngdag2a3snopl4sqs32bzany7uj6hcupb6lxy"
+          },
+          "eyes": {
+            "color": {
+              "r": 0.6650376319885254,
+              "g": 0.2478034943342209,
+              "b": 0.22760024666786194,
+              "a": 1
+            }
+          },
+          "hair": {
+            "color": {
+              "r": 0.5686274766921997,
+              "g": 0.2549019455909729,
+              "b": 0.14117644727230072,
+              "a": 1
+            }
+          },
+          "skin": {
+            "color": {
+              "r": 0.9490196108818054,
+              "g": 0.7607843279838562,
+              "b": 0.6470588445663452,
+              "a": 1
+            }
+          }
+        },
+        "ethAddress": "0x69d30b1875d39e13a01af73ccfed6d84839e84f2",
+        "userId": "0x69d30b1875d39e13a01af73ccfed6d84839e84f2",
+        "version": 84,
+        "hasConnectedWeb3": true,
+        "email": "",
+        "muted": [
+          "!vHRusWHcVRuwXkJonk:decentraland.org"
+        ]
+      }
+    ]
+  }
