@@ -9,7 +9,7 @@ node dist/<name of js module>
 
 ## Deploy profile
 * Make a copy of `.env.default` to `.env` and then populate environment variables in `.env` file.
-  * `CONTENT_SERVER_URL=https://peer.decentraland.org` (no need to set it if you are using the default value)
+  * `CONTENT_SERVER_URL=https://peer.decentraland.org/content` (no need to set it if you are using the default value)
   * `DCL_PRIVATE_KEY=abcde...` (private key of the account that will deploy the profile)
 * Update file `/etc/profiles/profile.json` with the following profile metadata.
 * Optionally provide `body.png` and `face256.png` files which reflect how the profile looks.
