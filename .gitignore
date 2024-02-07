@@ -1,5 +1,7 @@
-dist
-node_modules
-temp
+dist/
+node_modules/
+temp/
 tsdoc-metadata.json
-coverage
+coverage/
+.env
+yarn-error.log
