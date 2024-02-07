@@ -1,4 +1,4 @@
-import { createCatalystClient, DeploymentBuilder } from 'dcl-catalyst-client'
+import { createContentClient, DeploymentBuilder } from 'dcl-catalyst-client'
 import { createFetchComponent } from '@well-known-components/fetch-component'
 import * as fs from 'fs'
 import { createDotEnvConfigComponent } from '@well-known-components/env-config-provider'
@@ -12,15 +12,14 @@ export async function main() {
   })
   const [signingKey, peerUrl] = await Promise.all([
     config.requireString('DCL_PRIVATE_KEY'),
-    config.requireString('PEER_URL')
+    config.requireString('CONTENT_SERVER_URL')
   ])
 
   const identity = getIdentity(signingKey)
   console.log(`Signing address: ${identity.address}`)
 
   const fetcher = createFetchComponent()
-  const client = createCatalystClient({ url: peerUrl, fetcher })
-  const contentClient = await client.getContentClient()
+  const contentClient = createContentClient({ url: peerUrl, fetcher })
 
   const entityJson = JSON.parse(fs.readFileSync('etc/profiles/profile.json').toString())
   const entityFiles = new Map<string, Uint8Array>()
