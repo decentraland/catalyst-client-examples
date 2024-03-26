@@ -31,7 +31,7 @@
   "dependencies": {
     "@dcl/catalyst-contracts": "^4.3.1",
     "@dcl/crypto": "^3.4.5",
-    "@dcl/schemas": "^10.2.0",
+    "@dcl/schemas": "^11.2.0",
     "@noble/secp256k1": "^1.7.1",
     "@well-known-components/env-config-provider": "^1.2.0",
     "@well-known-components/fetch-component": "^2.0.2",
