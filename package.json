@@ -29,13 +29,13 @@
   },
   "homepage": "https://github.com/decentraland/catalyst-client-examples#readme",
   "dependencies": {
-    "@dcl/catalyst-contracts": "^4.3.1",
+    "@dcl/catalyst-contracts": "^4.4.1",
     "@dcl/crypto": "^3.4.5",
-    "@dcl/schemas": "^10.2.0",
-    "@noble/secp256k1": "^1.7.1",
+    "@dcl/schemas": "^11.9.1",
+    "@noble/secp256k1": "^2.1.0",
     "@well-known-components/env-config-provider": "^1.2.0",
     "@well-known-components/fetch-component": "^2.0.2",
-    "dcl-catalyst-client": "^21.5.5",
+    "dcl-catalyst-client": "^21.7.0",
     "eth-connect": "^6.2.4"
   },
   "devDependencies": {
