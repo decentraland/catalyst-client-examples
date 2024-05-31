@@ -1,0 +1,189 @@
+{
+  "outfits": [
+    {
+      "slot": 0,
+      "outfit": {
+        "bodyShape": "urn:decentraland:off-chain:base-avatars:BaseMale",
+        "eyes": {
+          "color": {
+            "r": 0.6650376319885254,
+            "g": 0.2478034943342209,
+            "b": 0.22760024666786194,
+            "a": 1
+          }
+        },
+        "hair": {
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.2549019455909729,
+            "b": 0.14117644727230072,
+            "a": 1
+          }
+        },
+        "skin": {
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.7607843279838562,
+            "b": 0.6470588445663452,
+            "a": 1
+          }
+        },
+        "wearables": [
+          "urn:decentraland:off-chain:base-avatars:eyes_02",
+          "urn:decentraland:off-chain:base-avatars:f_mouth_02",
+          "urn:decentraland:off-chain:base-avatars:cargo_shorts",
+          "urn:decentraland:off-chain:base-avatars:aviatorstyle",
+          "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle",
+          "urn:decentraland:matic:collections-v2:0xb22a4dde5397ce2ea8c75a01d18d7c94f1aa56fb:0:1994",
+          "urn:decentraland:matic:collections-v2:0xdb1db5ffc64430474c2de25dcbc271b592f04d6b:2:210624583337114373395836055367340864637790190801098222508621955314"
+        ],
+        "forceRender": []
+      }
+    },
+    {
+      "slot": 1,
+      "outfit": {
+        "bodyShape": "urn:decentraland:off-chain:base-avatars:BaseMale",
+        "eyes": {
+          "color": {
+            "r": 0.6650376319885254,
+            "g": 0.2478034943342209,
+            "b": 0.22760024666786194,
+            "a": 1
+          }
+        },
+        "hair": {
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.2549019455909729,
+            "b": 0.14117644727230072,
+            "a": 1
+          }
+        },
+        "skin": {
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.7607843279838562,
+            "b": 0.6470588445663452,
+            "a": 1
+          }
+        },
+        "wearables": [
+          "urn:decentraland:matic:collections-v2:0xdb1db5ffc64430474c2de25dcbc271b592f04d6b:2:210624583337114373395836055367340864637790190801098222508621955314",
+          "urn:decentraland:matic:collections-v2:0x0fe44691ec836b18b688ea145845983e7db7e435:1:105312291668557186697918027683670432318895095400549111254310977729",
+          "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle",
+          "urn:decentraland:off-chain:base-avatars:aviatorstyle",
+          "urn:decentraland:off-chain:base-avatars:cargo_shorts",
+          "urn:decentraland:off-chain:base-avatars:f_mouth_02",
+          "urn:decentraland:off-chain:base-avatars:eyes_02"
+        ],
+        "forceRender": []
+      }
+    },
+    {
+      "slot": 2,
+      "outfit": {
+        "bodyShape": "urn:decentraland:off-chain:base-avatars:BaseMale",
+        "eyes": {
+          "color": {
+            "r": 0.6650376319885254,
+            "g": 0.2478034943342209,
+            "b": 0.22760024666786194,
+            "a": 1
+          }
+        },
+        "hair": {
+          "color": {
+            "r": 0.5686274766921997,
+            "g": 0.2549019455909729,
+            "b": 0.14117644727230072,
+            "a": 1
+          }
+        },
+        "skin": {
+          "color": {
+            "r": 0.9490196108818054,
+            "g": 0.7607843279838562,
+            "b": 0.6470588445663452,
+            "a": 1
+          }
+        },
+        "wearables": [
+          "urn:decentraland:off-chain:base-avatars:eyes_02",
+          "urn:decentraland:off-chain:base-avatars:f_mouth_02",
+          "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:1",
+          "urn:decentraland:matic:collections-v2:0x80f54870df28850f9ce681ddcbf4bd7b18b007fb:1",
+          "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle",
+          "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:3",
+          "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:2"
+        ],
+        "forceRender": []
+      }
+    },
+    {
+      "slot": 3,
+      "outfit": {
+        "bodyShape": "",
+        "eyes": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "hair": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "skin": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "wearables": [],
+        "forceRender": []
+      }
+    },
+    {
+      "slot": 4,
+      "outfit": {
+        "bodyShape": "",
+        "eyes": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "hair": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "skin": {
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        },
+        "wearables": [],
+        "forceRender": []
+      }
+    }
+  ],
+  "namesForExtraSlots": []
+}
