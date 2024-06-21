@@ -34,7 +34,7 @@
     "@dcl/schemas": "^11.9.1",
     "@noble/secp256k1": "^2.1.0",
     "@well-known-components/env-config-provider": "^1.2.0",
-    "@well-known-components/fetch-component": "^2.0.2",
+    "@well-known-components/fetch-component": "^3.0.0",
     "dcl-catalyst-client": "^21.7.0",
     "eth-connect": "^6.2.4"
   },
