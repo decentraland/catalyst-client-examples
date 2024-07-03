@@ -427,9 +427,9 @@
   integrity sha512-Cg+MoIOn+BYmQV2q8zSFnNYY+GldlnUazwBnfgrq3i66ZxOaZ65h01btd8OUtSAlfWG4VTNIOHDjtKqmuwJNBg==
 
 "@dcl/schemas@^11.5.0", "@dcl/schemas@^11.9.1":
-  version "11.9.1"
-  resolved "https://registry.yarnpkg.com/@dcl/schemas/-/schemas-11.9.1.tgz#df9de598bad11b606bfe632e7735d07d4215e542"
-  integrity sha512-qmr0yHTLPNA06WG1XCGP3Vb9rBrOe3b7piDGpOzDNCzw7CSrMkFMAILc0KP9z+2YU/3Dep0r8a/S6RRZm16MIQ==
+  version "11.10.4"
+  resolved "https://registry.yarnpkg.com/@dcl/schemas/-/schemas-11.10.4.tgz#f47734d48c9aaa2fe78b2124437e95830e664c1e"
+  integrity sha512-rRluLbJu7I80wmmy6RiSt1SHvpRsWa0OHl+fxBy93JBrmLHE6Cv4xrBbkrVp3jYDFE7nTPQNIWwD2AqAVzTD+A==
   dependencies:
     ajv "^8.11.0"
     ajv-errors "^3.0.0"
