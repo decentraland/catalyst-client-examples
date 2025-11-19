@@ -4,7 +4,7 @@ import * as fs from 'fs'
 import { createDotEnvConfigComponent } from '@well-known-components/env-config-provider'
 import { Authenticator } from '@dcl/crypto'
 import { EntityType } from '@dcl/schemas'
-import { getIdentity } from './utils'
+import { getIdentity } from './utils.js'
 
 export async function main() {
   const config = await createDotEnvConfigComponent({
@@ -15,7 +15,7 @@ export async function main() {
     config.requireString('CONTENT_SERVER_URL')
   ])
 
-  const identity = getIdentity(signingKey)
+  const identity = await getIdentity(signingKey)
   console.log(`Signing address: ${identity.address}`)
 
   const fetcher = createFetchComponent()
