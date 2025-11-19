@@ -1,15 +1,18 @@
 import { IdentityType } from '@dcl/crypto'
-import { getPublicKey } from '@noble/secp256k1'
-import { hexToBytes } from 'eth-connect'
-import { computeAddress } from '@dcl/crypto/dist/crypto'
+import { getPublicKey } from 'ethereum-cryptography/secp256k1.js'
+import { computeAddress } from '@dcl/crypto/dist/crypto.js'
 
-export function getIdentity(privateKey: string): IdentityType {
-  const publicKey = getPublicKey(hexToBytes(privateKey)).slice(1)
+export async function getIdentity(privateKey: string): Promise<IdentityType> {
+  const ethConnect = (await import('eth-connect')).default as any
+  const privateKeyBytes = ethConnect.hexToBytes(privateKey)
+  const publicKeyBytes = getPublicKey(privateKeyBytes)
+  // Remove the leading 0x04 byte
+  const publicKey = publicKeyBytes.slice(1)
   const address = computeAddress(publicKey)
 
   return {
     privateKey: privateKey,
-    publicKey: Buffer.from(publicKey).toString('hex'),
+    publicKey: ethConnect.bytesToHex(publicKey),
     address
   }
 }

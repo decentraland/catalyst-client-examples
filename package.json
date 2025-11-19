@@ -1,6 +1,7 @@
 {
   "name": "@well-known-components/base-component",
   "version": "1.0.0",
+  "type": "module",
   "description": "base component",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
