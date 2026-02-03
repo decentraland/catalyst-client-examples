@@ -1,26 +1,22 @@
  {
     "avatars": [
       {
-        "hasClaimedName": true,
+        "hasClaimedName": false,
         "description": "",
         "tutorialStep": 256,
-        "name": "mgoldman",
+        "name": "paleale",
         "avatar": {
           "bodyShape": "urn:decentraland:off-chain:base-avatars:BaseMale",
           "wearables": [
             "urn:decentraland:off-chain:base-avatars:eyes_02",
             "urn:decentraland:off-chain:base-avatars:f_mouth_02",
-            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:1",
-            "urn:decentraland:matic:collections-v2:0x80f54870df28850f9ce681ddcbf4bd7b18b007fb:1",
-            "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle",
-            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:3",
-            "urn:decentraland:matic:collections-v2:0xc43914be599f3f8fe4956aa3ec9d6a6aead1edfa:2"
+            "urn:decentraland:off-chain:base-avatars:hair_coolshortstyle"
           ],
           "forceRender": [],
           "emotes": [
             {
               "slot": 1,
-              "urn": "urn:decentraland:matic:collections-v2:0xea954afa4d2a8d0624adfafeb0e5a725ef777774:1"
+              "urn": "raiseHand"
             },
             {
               "slot": 2,
@@ -40,7 +36,7 @@
             },
             {
               "slot": 6,
-              "urn": "urn:decentraland:matic:collections-v2:0x9087f96750c4e7607454c67c4f0bcf357ae62a46:2"
+              "urn": "clap"
             },
             {
               "slot": 7,
@@ -51,10 +47,6 @@
               "urn": "shrug"
             }
           ],
-          "snapshots": {
-            "body": "bafkreibcd4qcbtizhykjnnimypg7pzbgeeyovdcf7hbgejzwhlatgknuji",
-            "face256": "bafkreicewdls4xaaudfazngdag2a3snopl4sqs32bzany7uj6hcupb6lxy"
-          },
           "eyes": {
             "color": {
               "r": 0.6650376319885254,
